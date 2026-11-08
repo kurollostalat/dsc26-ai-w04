@@ -3,8 +3,6 @@ from __future__ import annotations
 import re
 import unicodedata
 
-from numpy import append
-
 
 def normalize_ar(text: str) -> str:
     result=""
