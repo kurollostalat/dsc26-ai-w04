@@ -26,6 +26,7 @@
 - Keep citation offsets and quoted text tied to the original document.
 - Do not add external search libraries such as `rank_bm25` or FAISS.
 - Do not assume that a reranker or external embedding model is available.
+- Distinguish the original chunk-processing offset from trimmed text offsets; follow the exact offset definitions in `README.md`.
 
 ## Models and Evaluation
 - The provided offline embedding implementation is `HashingEmbedder(dim=512, n=3)`.
